@@ -1,11 +1,14 @@
 # UnifiedDataHub
 UnifiedDataHub is a service-oriented middleware designed to establish a standardized approach for accessing, writing, and notifying data across various application domains. By adopting Web Services and a Web-based resource structure built upon open standards, UnifiedDataHub promotes interoperability and open data principles. This ensures that data access and application development consistently follow the same approach, enabling seamless data accessibility and facilitating the creation of new services and applications across diverse domains.
+![image](https://github.com/guilhermegui08/UnifiedDataHub/assets/112128696/c2f0ec71-0f99-4baa-b9b1-2c9c0fbb4bf3)
+![Diagrama sem nome drawio](https://github.com/guilhermegui08/UnifiedDataHub/assets/112128696/39941157-2dc7-42f6-95e8-aaeb6158478d)
 
 ## Project Aim:
 The project aims to create a service-oriented middleware that standardizes data access, writing, and notification across various application domains to promote interoperability and open data principles.
 
 ## Resource Structure:
 The middleware supports a hierarchical structure consisting of applications, containers, data records, and subscriptions. Applications can have multiple containers, and containers can contain data records and subscription mechanisms.
+![image](https://github.com/guilhermegui08/UnifiedDataHub/assets/112128696/c954cb91-8441-479c-b2cd-42876f980300)
 
 ## Resource Properties:
 Each resource type (application, container, data, subscription) has specific properties such as ID, name, creation date, and parent relationship. Data and subscription resources do not allow update operations.
